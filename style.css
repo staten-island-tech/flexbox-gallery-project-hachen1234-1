@@ -4,15 +4,38 @@ body,html,*{
     margin: 0;
     padding: 0;
   }
+  body{
+    background: #2f2a2b
+  }
   .card-list{ 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
-    width: 40rem;
+    width: 30%;
   }
+h1{
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 2rem auto;
+  background-color: #244b6c;
+  color: aliceblue;
+  justify-content: space-between;
+} 
 h3{ 
-    font-size: 2rem;
+    font-size: 3rem;
+    background: #168aa0;
 }
 img{ 
   width: 40rem;
+}
+.card{
+  font-size: 4rem;
+  text-align: center;
+  size: 5rem;
+  margin:4rem auto;
+  margin-left: 15rem;
+  background-color:#d7cacd;
+}
+p{ 
+  font-size: 1.5rem;
 }
