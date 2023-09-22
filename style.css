@@ -11,10 +11,11 @@ body {
 }
 .card-list {
   display: flex;
-  flex-direction: wrap;
-  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: row;
   width: 30%;
 }
+
 h1 {
   font-size: 4rem;
   text-align: center;
@@ -26,18 +27,25 @@ h1 {
 h3 {
   font-size: 3rem;
   background: #168aa0;
+  border: 1px solid black;
+  border-radius: 2rem;
 }
 img {
   width: 40rem;
+  height: 25rem;
 }
 .card {
   font-size: 4rem;
+  border: 1px solid black;
   text-align: center;
-  size: 5rem;
-  margin: 4rem auto;
-  margin-left: 15rem;
+  size: 4rem;
+  margin: 5rem;
+  border-radius: 2rem;
+  box-shadow: 10px 5px 5px gray;
   background-color: #d7cacd;
+  height: 50rem;
 }
+
 p {
   font-size: 1.5rem;
 }
