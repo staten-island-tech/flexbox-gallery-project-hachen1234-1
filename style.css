@@ -46,7 +46,7 @@ img {
   box-shadow: 10px 5px 10px gray;
   background-color: #d7cacd;
   height: 60rem;
-  width: 36rem;
+  width: 39rem;
 }
 p {
   font-size: 1.5rem;
@@ -64,5 +64,10 @@ h1:hover {
   color: #030001;
 }
 img:hover {
-  zoom: 120%;
+  zoom: 125%;
+}
+h2 {
+  color: #d7cacd;
+  font-size: 2rem;
+  animation: move;
 }
