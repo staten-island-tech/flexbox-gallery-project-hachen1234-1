@@ -52,9 +52,7 @@ p {
   font-size: 1.5rem;
 }
 .card:hover {
-  transform: scale(1.2);
-}
-#card1:hover {
+  background-color: #db2e68;
   transform: rotate(360deg);
   transition: transform 0.6s;
 }
@@ -69,5 +67,14 @@ img:hover {
 h2 {
   color: #d7cacd;
   font-size: 2rem;
-  animation: move;
+  margin-left: 5rem;
+  animation: move 10s infinite;
+}
+@keyframes move {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(90%);
+  }
 }
