@@ -70,6 +70,12 @@ h2 {
   margin-left: 5rem;
   animation: move 10s infinite;
 }
+h2:hover {
+  color: #db2e68;
+}
+h3:hover {
+  transform: scale(1.2);
+}
 @keyframes move {
   0% {
     transform: translateX(0%);
