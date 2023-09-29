@@ -71,7 +71,7 @@ h2 {
   animation: move 10s infinite;
 }
 h2:hover {
-  color: #db2e68;
+  color: #489481;
 }
 h3:hover {
   transform: scale(1.2);
