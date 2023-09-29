@@ -52,7 +52,7 @@ p {
   font-size: 1.5rem;
 }
 .card:hover {
-  background-color: #db2e68;
+  background-color: #45a887;
   transform: rotate(360deg);
   transition: transform 0.6s;
 }
