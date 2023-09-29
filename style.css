@@ -84,3 +84,23 @@ h3:hover {
     transform: translateX(90%);
   }
 }
+@media screen and (max-width: 1250px) {
+  .card {
+    background-color: #329dba;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .card {
+    background-color: #2cb05f;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    background-color: #bba2db;
+    margin: auto;
+  }
+}
